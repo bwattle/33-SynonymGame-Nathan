@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+        <canvas id="canvas0" width="500" height="590"></canvas>
+        <script src="timer.js"></script>
+        <script src="script.js"></script>
+        <div id="timer-container">
+            <span id = "timer-text">Time: </span>
+            <span class="timer"></span>
+        </div>
+        <input id="Help" type="button" value="Help" onclick="Help();" />
+    </body>
+    <h2>
+        <input id="Reset" type="button" value="Restart" class="resetButton" onclick="reset();" />
+    </h2>
+    <h3>
+        <select id= "Difficulty" onChange="chooseDiff();">
+            <option value="Easy" >Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select>
+    </h3>
+</html>
