@@ -14,7 +14,7 @@ var timer;
 var win = false;
 Help();
 function Help(){
-    window.alert('This is an educational game, generally meant for a younger audience to teach them about synonyms. To play all you have to do is click on the synonym of the word that is shown at the top. If it is too hard or too easy just use the dropdown box to change the difficulty and then press "restart". If you need more help just click the help button in the bottom-left hand corner! Have Fun!');
+    window.alert('This is an educational game, generally meant for a younger audience to teach them about synonyms. To play all you have to do is click on the synonym (a word with a similar meaning) of the word that is shown at the top. If it is too hard or too easy just use the dropdown box to change the difficulty and then press "restart". If you need more help just click the help button in the bottom-left hand corner! Have Fun!');
 }
 canvas.addEventListener("click", mousePos);
 
